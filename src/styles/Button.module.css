@@ -1,0 +1,19 @@
+.button {
+  cursor: pointer;
+  border: 0;
+  background-color: unset;
+  color: #5e6c84;
+  padding: 8px;
+  border-radius: 5px;
+  margin-top: 15px;
+}
+
+.button:hover {
+  background-color: white;
+  color: black;
+}
+
+.submit {
+  background-color: darkblue;
+  color: white;
+}

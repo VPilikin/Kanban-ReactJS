@@ -1,0 +1,8 @@
+.task {
+  background-color: white;
+  margin-top: 15px;
+  border-radius: 5px;
+  padding: 8px;
+  cursor: pointer;
+  width: 100%;
+}
