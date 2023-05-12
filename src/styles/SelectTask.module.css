@@ -1,5 +1,6 @@
 .select {
+  position: relative;
   width: 100%;
-  margin: 15px 0;
+  margin: 15px auto;
   border-radius: 5px;
 }

@@ -1,0 +1,24 @@
+.footer {
+  margin-top: 20px;
+  min-height: 55px;
+  width: 100%;
+  background-color: #041930;
+  color: white;
+  justify-self: baseline;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.counters {
+  display: flex;
+  flex-direction: row;
+}
+
+@media (max-width: 700px) {
+  .footer {
+    display: none;
+  }
+}

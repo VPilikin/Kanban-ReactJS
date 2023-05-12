@@ -22,11 +22,11 @@ function FormTask({ newTask, type, tasks, jumpTask, title }) {
     }
   }
 
-  const selectOptions = tasks.map((task) => {
-    if (task.section === type) {
+  const selectOptions = tasks
+    .filter((task) => task.section === type)
+    .map((task) => {
       return { value: task.text, label: task.text, id: task.id }
-    }
-  })
+    })
 
   const submitSelectHandle = (event) => {
     event.preventDefault()

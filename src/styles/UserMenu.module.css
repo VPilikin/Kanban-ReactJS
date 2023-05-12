@@ -1,0 +1,50 @@
+.logoMenu {
+  width: 38px;
+  height: 38px;
+  background-color: white;
+  border-radius: 50%;
+  position: relative;
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.logoMenu::before {
+  content: url(../../public/user.svg);
+  position: absolute;
+  left: 5px;
+  top: 5px;
+}
+
+.logoMenu::after {
+  content: url(../../public/vector.svg);
+  position: absolute;
+  left: 50px;
+  top: 5px;
+  transition: transform 0.5s;
+}
+.logoMenu:hover::after {
+  transform: rotate(0.5turn);
+}
+
+.menu {
+  position: fixed;
+  right: 10px;
+  top: 55px;
+  width: 140px;
+  height: 60px;
+  border-radius: 5px;
+  background-color: white;
+}
+
+.menuContent li {
+  width: 100%;
+  height: 30px;
+  padding: 5px;
+  color: black;
+  border-radius: 5px;
+}
+
+.menuContent li:hover {
+  background-color: rgba(0, 81, 255, 0.76);
+  cursor: pointer;
+}

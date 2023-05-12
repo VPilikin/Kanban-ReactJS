@@ -17,3 +17,9 @@
   background-color: darkblue;
   color: white;
 }
+
+.button:disabled:hover {
+  background-color: unset;
+  cursor: default;
+  color: #5e6c84;
+}

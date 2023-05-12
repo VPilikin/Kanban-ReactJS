@@ -1,10 +1,11 @@
+import { Link } from 'react-router-dom'
 import styles from '../styles/Task.module.css'
 
-function Task({ children }) {
+function Task({ children, id }) {
   return (
-    <div className={styles.task}>
+    <Link to={id} className={styles.task}>
       <p>{children}</p>
-    </div>
+    </Link>
   )
 }
 
